@@ -10,7 +10,7 @@ $ErrorActionPreference = "Stop"
 $expectedNodeVersion = "v26.5.0"
 $expectedNodeSha256 = "119D6FA70E6AE1B15B90688AB6BCC8E3A2819ACEA021AF196895CAB1843645AF"
 $expectedNodeLicenseSha256 = "D9C4EEDA951D6D08F4AA1316B61AAFCF67E6DA5F79B18F8EDEB56FA6ABDC038C"
-$expectedCliBanner = "markdownlint-cli2 v0.23.1 (markdownlint v0.41.1)"
+$expectedCliBanner = "markdownlint-cli2 v0.23.2 (markdownlint v0.41.1)"
 
 $repositoryRoot = Split-Path -Parent $PSScriptRoot
 $resourcesPath = Join-Path $repositoryRoot "OneNoteMarkdownExporter\resources"
